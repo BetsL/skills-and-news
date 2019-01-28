@@ -97,6 +97,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* border radius to soften boxes?  use column wrap on k letters for mobile?*/
+
 
 *  {
     margin: 0;
@@ -110,6 +112,7 @@ html  {
 
 body  {
     background-color: #FFF;
+    color: #383838;
     font-size: 1em;
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -147,6 +150,10 @@ body  {
     padding: 3em;
 }
 
+.header-container h1  {
+    font-weight: lighter;
+}
+
 /*.header {
     display: flex;
     justify-content: center;
@@ -170,9 +177,72 @@ body  {
 }
 
 .day-grid-item  {
-    border: 1px solid #fff;
+    border: 5px solid #fff;
     width: 300px;
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+.day-grid-item h2, p  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*flex-flow: row wrap;*/
+}
+
+.first-item {
+    order: 0;
+    background-color: #FF97CC;
+}
+
+.day-two  {
+    background-color: #FFB3C9;
+}
+
+.day-three  {
+    background-color: #FAD0D7;
+}
+
+.day-four {
+    background-color: #FCF4F8;
+}
+
+.last-item  {
+    order: 4;
+    background-color: #ADD0EF;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    border: 5px solid #FFF;
+    height: 200px;
+    flex: 1;
+}
+
+.footer-three {
+    flex: 2;
+}
+
+.footer-one,
+.footer-three {
+    background-color: #9AA197;
+    flex: initial;
+    width: 300px;
+}
+
+.footer-two {
+    background-color: #F5F5F5;
 }
 
 
