@@ -99,6 +99,8 @@ textarea {
 
 /* border radius to soften boxes?  use column wrap on k letters for mobile?*/
 
+/* -------- GENERAL STYLES -------- */
+
 
 *  {
     margin: 0;
@@ -112,21 +114,32 @@ html  {
 
 body  {
     background-color: #FFF;
-    color: #383838;
+    color: #5D6063;
     font-size: 1em;
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 
-.menu-container {
+a {
     color: #5D6063;
+    text-decoration: none;
+}
+
+h1, h2, p, a  {
+    line-height: 1.3em;
+    text-align: center;
+}
+
+
+/* -------- NAV -------- */
+
+
+.menu-container {
     display: flex;
     justify-content: center;
 }
 
 .link {
-    border: 5px solid #9AA297;
-    border-top: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,30 +155,60 @@ body  {
     padding: inherit;
 }
 
+.room103-portal p, .room103-portal a  {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.5em;
+}
+
+.room103-portal a:hover {
+    transform: scale(2);
+}
+
+
+/* -------- HEADER -------- */
+
+
 .header-container {
-    color: #9AA197;
     display: flex;
     justify-content: center;
-    font-size: 2em;
-    padding: 3em;
+    align-items: center;
+    flex-flow: row wrap;
+    padding-top: 9em;
+    padding-bottom: 9em;
+    width: 100%;
 }
 
-.header-container h1  {
-    font-weight: lighter;
-}
-
-/*.header {
+.header {
+    width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 .header h1  {
-    font-size: 1.5rem;
-}*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 6em;
+    width: 100%;
+}
+
+.header h1 span {
+    color: #9AA297;
+}
+
+
+/* -------- MAIN -------- */
+
 
 .week-grid-container  {
     display: flex;
     justify-content: center;
+    /*border-top: 1px solid #9AA297;
+    padding-top: 5em;*/
 }
 
 .day-grid {
@@ -174,10 +217,13 @@ body  {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    border-top: 1px solid #9AA297;
+    padding-top: 5em;
 }
 
 .day-grid-item  {
-    border: 5px solid #fff;
+    border: 5px solid #FFF;
+    border-radius: 10px;
     width: 300px;
     height: 300px;
     display: flex;
@@ -187,9 +233,11 @@ body  {
 }
 
 .day-grid-item h2, p  {
+    color: #303030;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 15px;
     /*flex-flow: row wrap;*/
 }
 
@@ -210,10 +258,18 @@ body  {
     background-color: #FCF4F8;
 }
 
-.last-item  {
-    order: 4;
+.day-five  {
     background-color: #ADD0EF;
 }
+
+.last-item  {
+    order: 5;
+    background-color: #DEECF9;
+}
+
+
+/* -------- FOOTER -------- */
+
 
 .footer {
     display: flex;
@@ -221,11 +277,13 @@ body  {
 }
 
 .footer-item  {
+    font-family: 'Titillium Web', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
     border: 5px solid #FFF;
+    border-radius: 10px;
     height: 200px;
     flex: 1;
 }
@@ -236,13 +294,17 @@ body  {
 
 .footer-one,
 .footer-three {
-    background-color: #9AA197;
+    background-color: #9AA297;
     flex: initial;
     width: 300px;
 }
 
 .footer-two {
     background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
 }
 
 
