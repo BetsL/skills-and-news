@@ -171,7 +171,7 @@ h1, h2, p, a  {
 }
 
 .room103-portal a:hover {
-    transform: scale(2);
+    transform: scale(1.1);
 }
 
 
@@ -316,6 +316,10 @@ header h1  {
 .footer-grid p  {
     font-size: 1.3em;
     color: #FFF;
+}
+
+.footer-grid:hover  {
+    transform: scale(1.1);
 }
 
 .copyright  {
@@ -463,9 +467,31 @@ header h1  {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media only screen and (max-width: 480px) {
+      .room103-portal p, .room103-portal a  {
+      font-size: 0.8em;
+      }
+
+
+      header h1 {
+          font-size: 2em;
+      }
+
+      .tagline p  {
+          font-size: 1em;
+      }
+
+      .day-grid {
+          padding-top: 6em;
+          padding-bottom: 6em;
+      }
 }
+
+/* @media only screen and (max-width: 480px) {
+      header h1 {
+          font-size: 2.8em;
+      }
+}*/
 
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
