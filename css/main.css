@@ -237,6 +237,10 @@ header h1  {
     padding-top: 5em;*/
 }
 
+.week-grid-container a:hover  {
+    background-color: #5D6063;
+}
+
 .day-grid {
     width: 900px;
     display: flex;
@@ -267,6 +271,10 @@ header h1  {
     padding: 15px;
     /*flex-flow: row wrap;*/
 }
+
+/*.day-grid a:hover  {
+    color: #5D6063;
+}*/
 
 .first-item {
     order: 0;
@@ -315,6 +323,10 @@ header h1  {
 
 .footer-grid p  {
     font-size: 1.3em;
+    color: #FFF;
+}
+
+.footer-grid a  {
     color: #FFF;
 }
 
@@ -484,6 +496,11 @@ header h1  {
       .day-grid {
           padding-top: 6em;
           padding-bottom: 6em;
+      }
+
+      .day-grid-item  {
+          width: 200px;
+          height: 200px;
       }
 }
 
