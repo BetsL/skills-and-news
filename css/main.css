@@ -97,7 +97,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/* border radius to soften boxes?  use column wrap on k letters for mobile?*/
 
 /* -------- GENERAL STYLES -------- */
 
@@ -134,12 +133,6 @@ h1, h2, p, a  {
     text-align: center;
 }
 
-/*.menu-container, .header-container,
-.week-grid-container  {
-    margin: 0;
-    width: 90%;
-}*/
-
 
 /* -------- NAV -------- */
 
@@ -156,7 +149,6 @@ h1, h2, p, a  {
     flex-flow: row wrap;
     padding: 0.5em;
     width: 25%;
-    /*height: 10%;*/
 }
 
 .room103-portal {
@@ -183,8 +175,6 @@ h1, h2, p, a  {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    /*padding-top: 9em;
-    padding-bottom: 9em;*/
 }
 
 .header {
@@ -204,7 +194,6 @@ header h1  {
     font-size: 4em;
     padding-top: 2em;
     padding-bottom: 2.3em;
-    /*width: 100%;*/
 }
 
 .header h1 span {
@@ -218,7 +207,6 @@ header h1  {
     flex-flow: row wrap;
     width: 100%;
     text-align: center;
-    /*padding-top: 3em;*/
 }
 
 .tagline p  {
@@ -227,14 +215,12 @@ header h1  {
 }
 
 
-/* -------- MAIN -------- */
+/* -------- MAIN SECTION -------- */
 
 
 .week-grid-container  {
     display: flex;
     justify-content: center;
-    /*border-top: 1px solid #9AA297;
-    padding-top: 5em;*/
 }
 
 .week-grid-container a:hover  {
@@ -247,7 +233,6 @@ header h1  {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    /*border-top: 1px solid #9AA297;*/
     padding-top: 9em;
     padding-bottom: 9em;
 }
@@ -269,12 +254,7 @@ header h1  {
     justify-content: center;
     align-items: center;
     padding: 15px;
-    /*flex-flow: row wrap;*/
 }
-
-/*.day-grid a:hover  {
-    color: #5D6063;
-}*/
 
 .first-item {
     order: 0;
@@ -296,7 +276,6 @@ header h1  {
 .last-item  {
     order: 4;
     background-color: #ADD0EF;
-    /*background-color: #DEECF9;*/
 }
 
 
@@ -310,7 +289,7 @@ header h1  {
 }
 
 .footer-grid  {
-    width: 800px;
+    width: 600px;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -337,60 +316,6 @@ header h1  {
 .copyright  {
     color: #9AA297;
 }
-/*.footer {
-    display: flex;
-    justify-content: space-between;
-    /*align-items: center;
-    flex-flow: row wrap;
-}
-
-.footer-item  {
-    font-family: 'Titillium Web', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column wrap;
-    border: 5px solid #FFF;
-    border-radius: 10px;
-    height: 100px;
-    flex: 1;
-}
-
-.footer-three {
-    flex: 2;
-}
-
-.footer-one,
-.footer-three {
-    background-color: #9AA297;
-    flex: initial;
-    width: 200px;
-}
-
-.footer-two {
-    background-color: #F5F5F5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column wrap;
-}*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ==========================================================================
@@ -479,36 +404,18 @@ header h1  {
    Modify as content requires.
    ========================================================================== */
 
+
 @media only screen and (max-width: 480px) {
-      .room103-portal p, .room103-portal a  {
-      font-size: 0.8em;
-      }
 
+    header h1 {
+        font-size: 2.5em;
+    }
 
-      header h1 {
-          font-size: 2em;
-      }
-
-      .tagline p  {
-          font-size: 1em;
-      }
-
-      .day-grid {
-          padding-top: 6em;
-          padding-bottom: 6em;
-      }
-
-      .day-grid-item  {
-          width: 200px;
-          height: 200px;
-      }
+    .footer-grid  {
+        width: 300px;
+    }
 }
 
-/* @media only screen and (max-width: 480px) {
-      header h1 {
-          font-size: 2.8em;
-      }
-}*/
 
 @media print,
        (-webkit-min-device-pixel-ratio: 1.25),
