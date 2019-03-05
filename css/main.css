@@ -198,7 +198,8 @@ header h1  {
 
 .header h1 span {
     /*color: #ADD0EF;*/
-    color: rgb(158, 231, 245);
+    /*color: rgb(158, 231, 245);*/
+    color: #689f38;
 }
 
 .tagline  {
@@ -257,31 +258,38 @@ header h1  {
     padding: 15px;
 }
 
+/* Backgrounds, in order: original Valentine; spring; 4-leaf */
+
 .first-item {
     order: 0;
     /*background-color: #FF97CC;*/
-    background-color: rgb(243, 168, 188);
+    /*background-color: rgb(243, 168, 188);*/
+    background-color: #689f38;
 }
 
 .day-two  {
     /*background-color: #FFB3C9;*/
-    background-color: rgb(245, 173, 148);
+    /*background-color: rgb(245, 173, 148);*/
+    background-color: #8bc34a;
 }
 
 .day-three  {
     /*background-color: #FAD0D7;*/
-    background-color: rgb(255, 241, 166);
+    /*background-color: rgb(255, 241, 166);*/
+    background-color: #aed581;
 }
 
 .day-four {
     /*background-color: #FCF4F8;*/
-    background-color: rgb(180, 249, 165);
+    /*background-color: rgb(180, 249, 165);*/
+    background-color: #f1f8e9;
 }
 
 .last-item  {
     order: 4;
     /*background-color: #ADD0EF;*/
-    background-color: rgb(158, 231, 245);
+    /*background-color: rgb(158, 231, 245);*/
+    background-color: #ffa500;
 }
 
 
