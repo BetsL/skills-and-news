@@ -192,8 +192,10 @@ header h1  {
     flex-flow: row wrap;
     font-family: 'Titillium Web', sans-serif;
     font-size: 4em;
-    padding-top: 2em;
-    padding-bottom: 2.3em;
+    /*padding-top: 2em;
+    padding-bottom: 2.3em;*/
+    padding-top: 3em;
+    padding-bottom: 3.3em;
 }
 
 .header h1 span {
@@ -235,8 +237,10 @@ header h1  {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    padding-top: 9em;
-    padding-bottom: 9em;
+    /*padding-top: 9em;
+    padding-bottom: 9em;*/
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 .day-grid-item  {
@@ -303,7 +307,7 @@ header h1  {
 }
 
 .footer-grid  {
-    width: 600px;
+    width: 300px;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -425,17 +429,25 @@ header h1  {
         font-size: 2.5em;
     }
 
+}
+
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+
+    header h1 {
+        font-size: 3.5em;
+    }
+
     .footer-grid  {
-        width: 300px;
+        width: 500px;
     }
 }
 
-/*@media only screen and (min-width: 480px) and (max-width: 480px)  {
+@media only screen and (min-width: 1024px) and (max-width: 1024px)  {
 
-    .footer-grid  {
-        width: 100px;
+    header h1 {
+        font-size: 4.5em;
     }
-}*/
+}
 
 
 @media print,
