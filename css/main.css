@@ -197,7 +197,8 @@ header h1  {
 }
 
 .header h1 span {
-    color: #ADD0EF;
+    /*color: #ADD0EF;*/
+    color: rgb(158, 231, 245);
 }
 
 .tagline  {
@@ -258,24 +259,29 @@ header h1  {
 
 .first-item {
     order: 0;
-    background-color: #FF97CC;
+    /*background-color: #FF97CC;*/
+    background-color: rgb(243, 168, 188);
 }
 
 .day-two  {
-    background-color: #FFB3C9;
+    /*background-color: #FFB3C9;*/
+    background-color: rgb(245, 173, 148);
 }
 
 .day-three  {
-    background-color: #FAD0D7;
+    /*background-color: #FAD0D7;*/
+    background-color: rgb(255, 241, 166);
 }
 
 .day-four {
-    background-color: #FCF4F8;
+    /*background-color: #FCF4F8;*/
+    background-color: rgb(180, 249, 165);
 }
 
 .last-item  {
     order: 4;
-    background-color: #ADD0EF;
+    /*background-color: #ADD0EF;*/
+    background-color: rgb(158, 231, 245);
 }
 
 
