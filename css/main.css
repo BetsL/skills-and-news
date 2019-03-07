@@ -296,6 +296,14 @@ header h1  {
     background-color: #ffa500;
 }
 
+/*.last-item  {
+    background-color: #9AA297;
+}
+
+.last-item p  {
+    color: #FFF;
+}*/
+
 
 /* -------- FOOTER -------- */
 
@@ -422,30 +430,76 @@ header h1  {
    Modify as content requires.
    ========================================================================== */
 
-
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 319px) {
 
     header h1 {
-        font-size: 2.5em;
+        font-size: 2em;
     }
 
-}
-
-@media only screen and (min-width: 768px) and (max-width: 768px) {
-
-    header h1 {
-        font-size: 3.5em;
+    .day-grid-item  {
+        width: 225px;
+        height: 225px;
     }
 
     .footer-grid  {
-        width: 500px;
+        width: 225px;
     }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1024px)  {
+@media only screen and (min-width: 320px) and (max-width: 479px)  {
 
     header h1 {
-        font-size: 4.5em;
+        font-size: 3em;
+        padding-top: 2em;
+        padding-bottom: 2.3em;
+    }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px)  {
+
+    header h1 {
+        padding-top: 2em;
+        padding-bottom: 2.3em;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+    header h1 {
+        font-size: 5em;
+        padding-top: 1.5em;
+        padding-bottom: 1.7em;
+    }
+
+    .footer-grid  {
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 1024px)  {
+
+    header h1 {
+        font-size: 6em;
+        padding-top: 1.5em;
+        padding-bottom: 1.7em;
+    }
+
+    .footer-grid  {
+        width: 400px;
+    }
+}
+
+@media only screen and (min-width: 1200px)  {
+
+    header h1 {
+        font-size: 7em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    .footer-grid  {
+        width: 400px;
     }
 }
 
