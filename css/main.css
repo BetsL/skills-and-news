@@ -466,14 +466,19 @@ header h1  {
     }
 
     header h1 {
-        font-size: 3em;
+        font-size: 2.8em;
         padding-top: 2em;
         padding-bottom: 2.3em;
     }
 
-    .footer-grid  {
+    .day-grid-item  {
         width: 290px;
-        height: 90px;
+        height: 290px;
+    }
+
+    .footer-grid  {
+        width: 280px;
+        height: 80px;
     }
 
 }
