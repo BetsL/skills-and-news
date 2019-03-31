@@ -114,12 +114,13 @@ html  {
 
 body  {
     background-color: #FFF;
-    border: 1px solid #a9a9a9;
+    /*border: 1px solid #a9a9a9;*/
+    border: 1px solid #5d6063;
     border-radius: 5px;
     color: #5D6063;
     font-size: 1em;
     font-family: 'Roboto', sans-serif;
-    margin: 15px;
+    margin: 25px;
     text-align: center;
 }
 
@@ -334,15 +335,17 @@ header h1  {
     flex-flow: row wrap;
     /*background-color: #9AA297; original */
     /*background-color: #f5f5f5;   white smoke */
-    background-color: #b9bbbd;
+    /*background-color: #b9bbbd;*/
+    border: 1px solid #5d6063;
     border-radius: 10px;
     margin: 1em;
 }
 
 .footer-grid p  {
     font-size: 1.3em;
-    color: #FFF;
+    /*color: #FFF; original */
     /*color: #9AA297;*/
+    color: #5d6063;
 }
 
 .footer-grid a  {
