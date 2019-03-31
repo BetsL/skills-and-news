@@ -203,9 +203,10 @@ header h1  {
 }
 
 .header h1 span {
-    /*color: #ADD0EF;*/
+    /*color: #ADD0EF;  original Valentine */
     /*color: rgb(158, 231, 245);*/
-    color: #689f38;
+    /*color: #689f38; 4-leaf */
+    color: #7eb2b1;
 }
 
 .tagline  {
@@ -218,7 +219,8 @@ header h1  {
 }
 
 .tagline p  {
-    color: #9AA297;
+    /*color: #9AA297; original */
+    color: #b9bbbd;
     font-size: 1.3em;
 }
 
@@ -272,32 +274,37 @@ header h1  {
     order: 0;
     /*background-color: #FF97CC;*/
     /*background-color: rgb(243, 168, 188);*/
-    background-color: #689f38;
+    /*background-color: #689f38; 4-leaf */
+    background-color: #52555c;
 }
 
 .day-two  {
     /*background-color: #FFB3C9;*/
     /*background-color: rgb(245, 173, 148);*/
-    background-color: #8bc34a;
+    /*background-color: #8bc34a; 4-leaf */
+    background-color: #576c78;
 }
 
 .day-three  {
     /*background-color: #FAD0D7;*/
     /*background-color: rgb(255, 241, 166);*/
-    background-color: #aed581;
+    /*background-color: #aed581; 4-leaf */
+    background-color: #8998a0;
 }
 
 .day-four {
     /*background-color: #FCF4F8;*/
     /*background-color: rgb(180, 249, 165);*/
-    background-color: #f1f8e9;
+    /*background-color: #f1f8e9; 4-leaf */
+    background-color: #dde1e4;
 }
 
 .last-item  {
     order: 4;
     /*background-color: #ADD0EF;*/
     /*background-color: rgb(158, 231, 245);*/
-    background-color: #ffa500;
+    /*background-color: #ffa500; 4-leaf */
+    background-color: #7eb2b1;
 }
 
 /*.last-item  {
@@ -325,7 +332,9 @@ header h1  {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    background-color: #9AA297;
+    /*background-color: #9AA297; original */
+    /*background-color: #f5f5f5;   white smoke */
+    background-color: #b9bbbd;
     border-radius: 10px;
     margin: 1em;
 }
@@ -333,6 +342,7 @@ header h1  {
 .footer-grid p  {
     font-size: 1.3em;
     color: #FFF;
+    /*color: #9AA297;*/
 }
 
 .footer-grid a  {
@@ -344,7 +354,8 @@ header h1  {
 }
 
 .copyright  {
-    color: #9AA297;
+    /*color: #9AA297;*/
+    color: #b9bbbd;
 }
 
 
