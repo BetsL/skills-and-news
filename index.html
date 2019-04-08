@@ -18,14 +18,6 @@
   <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet" type="text/css">
 
-  <!-- correcting for alert executing before page load -->
-  <script type="text/javascript">
-  document.onreadystatechange = function(){//window.addEventListener('readystatechange',function(){...}); (for Netscape) and window.attachEvent('onreadystatechange',function(){...}); (for IE and Opera) also work
-    if(document.readyState=='loaded' || document.readyState=='complete')
-        alert('Please reference the sight word assessment sent home earlier this week for Wednesday\'s goal setting. Thanks! Hope you all had a great break, E.H.');
-  }
-  </script> 
-
 </head>
 
 <body>
@@ -122,6 +114,13 @@
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
 
+  <!-- correcting for alert executing before page load -->
+  <script type="text/javascript">
+  document.onreadystatechange = function(){//window.addEventListener('readystatechange',function(){...}); (for Netscape) and window.attachEvent('onreadystatechange',function(){...}); (for IE and Opera) also work
+    if(document.readyState=='loaded' || document.readyState=='complete')
+        alert('Please reference the sight word assessment sent home earlier this week for Wednesday\'s goal setting. Thanks! Hope you all had a great break, E.H.');
+  }
+  </script> 
 </body>
 
 </html>
