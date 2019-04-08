@@ -2,6 +2,7 @@
 <html class="no-js" lang="">
 
 <head>
+
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Weekly Skills + News</title>
@@ -16,6 +17,15 @@
   <link rel="stylesheet" href="css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet" type="text/css">
+
+  <!-- correcting for alert executing before page load -->
+  <script type="text/javascript">
+  document.onreadystatechange = function(){//window.addEventListener('readystatechange',function(){...}); (for Netscape) and window.attachEvent('onreadystatechange',function(){...}); (for IE and Opera) also work
+    if(document.readyState=='loaded' || document.readyState=='complete')
+        alert('Please reference the sight word assessment sent home earlier this week for Wednesday\'s goal setting. Thanks! Hope you all had a great break, E.H.');
+  }
+  </script> 
+
 </head>
 
 <body>
@@ -107,11 +117,11 @@
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
-    alert('Please reference the sight word assessment sent home earlier this week for Wednesday\'s goal setting. Thanks! Hope you all had a great break, E.H.');
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
 </body>
 
 </html>
