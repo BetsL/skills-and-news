@@ -13,4 +13,3 @@ Digitized weekly newsletter: A groovy, retro-modern, fanciful, yet functional, r
 
 ![peek-too](https://user-images.githubusercontent.com/44883733/56086601-458bbf80-5e28-11e9-89e9-c52690589596.png)
 
-![full-shadow](https://user-images.githubusercontent.com/44883733/56086689-6523e780-5e2a-11e9-9ec0-00b3fc58a1fa.png)
