@@ -120,7 +120,7 @@ body  {
     color: #5D6063;
     font-size: 1em;
     font-family: 'Roboto', sans-serif;
-    margin: 25px;
+    margin: 30px;
     text-align: center;
 }
 
@@ -149,9 +149,9 @@ h1, h2, p, a  {
 
 .link {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
     padding: 0.5em;
     width: 25%;
 }
@@ -185,16 +185,16 @@ h1, h2, p, a  {
 .header {
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
 }
 
 header h1  {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
     font-family: 'Titillium Web', sans-serif;
     font-size: 4em;
     /*padding-top: 2em;
@@ -207,14 +207,17 @@ header h1  {
     /*color: #ADD0EF;  original Valentine */
     /*color: rgb(158, 231, 245);*/
     /*color: #689f38; 4-leaf */
-    color: #7eb2b1;
+    /*color: #7eb2b1; April */
+    /*color: #f598a8; May/day-four */
+    color: #ff007f;
+    font-size: 1.5em;
 }
 
 .tagline  {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
     width: 100%;
     text-align: center;
 }
@@ -241,9 +244,9 @@ header h1  {
 .day-grid {
     width: 900px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
     /*padding-top: 9em;
     padding-bottom: 9em;*/
     padding-top: 3em;
@@ -256,9 +259,10 @@ header h1  {
     width: 300px;
     height: 300px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column wrap;
+    opacity: 3;
 }
 
 .day-grid-item h2, p  {
@@ -269,6 +273,10 @@ header h1  {
     padding: 15px;
 }
 
+/*.highlight {
+    color: #222;
+}*/
+
 /* Backgrounds, in order: original Valentine; spring; 4-leaf */
 
 .first-item {
@@ -276,28 +284,32 @@ header h1  {
     /*background-color: #FF97CC;*/
     /*background-color: rgb(243, 168, 188);*/
     /*background-color: #689f38; 4-leaf */
-    background-color: #52555c;
+    /*background-color: #52555c; April */
+    background: linear-gradient(90deg, #69b7eb, #b3dbd3, #f4d6db);
 }
 
 .day-two  {
     /*background-color: #FFB3C9;*/
     /*background-color: rgb(245, 173, 148);*/
     /*background-color: #8bc34a; 4-leaf */
-    background-color: #576c78;
+    /*background-color: #576c78; April */
+    background: linear-gradient(90deg, #cfecd0, #ffc5ca);
 }
 
 .day-three  {
     /*background-color: #FAD0D7;*/
     /*background-color: rgb(255, 241, 166);*/
     /*background-color: #aed581; 4-leaf */
-    background-color: #8998a0;
+    /*background-color: #8998a0; April */
+    background: linear-gradient(90deg, #f598a8, #f6edb2);
 }
 
 .day-four {
     /*background-color: #FCF4F8;*/
     /*background-color: rgb(180, 249, 165);*/
     /*background-color: #f1f8e9; 4-leaf */
-    background-color: #dde1e4;
+    /*background-color: #dde1e4; April */
+    background: linear-gradient(90deg, #ee5c87, #f1a4b5, #d587b3);
 }
 
 .last-item  {
@@ -305,7 +317,8 @@ header h1  {
     /*background-color: #ADD0EF;*/
     /*background-color: rgb(158, 231, 245);*/
     /*background-color: #ffa500; 4-leaf */
-    background-color: #7eb2b1;
+    /*background-color: #7eb2b1; April */
+    background: linear-gradient(90deg, #b9deed, #efefef);
 }
 
 /*.last-item  {

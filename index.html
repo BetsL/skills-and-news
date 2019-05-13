@@ -47,34 +47,35 @@
               </div>
           </div>
           <div class="tagline">
-              <p><em>May 13 - 17, 2019 - Consonant Clusters + Blends, Life Cycles, Number Sense (Addition, Subtraction)</em></p>
+              <p><em>5.13 - 17, 2019 - Life Cycles of Plants, Animals + Insects, Suffixes -ing, -s, -ed, Short + Long Vowels, Addition, Subtraction</em></p>
           </div>
       </header>
 
       <section class="week-grid-container">
           <div class="day-grid">
-              <a href="http://www.readingrockets.org/article/playing-word-sounds-stretch-and-shorten" target="_blank">
+              <!-- <a href="http://www.readingrockets.org/article/playing-word-sounds-stretch-and-shorten" target="_blank"> -->
                   <div class="day-grid-item first-item">
                       <h2>[ M ]</h2>
-                      <p>Word Stretch - What sounds can you hear at the beginning, middle, and end?</p>
+                      <!-- <p>Word Stretch - What sounds can you hear at the beginning, middle, and end</p> -->
+                      <p class="highlight">Practice your line(s) for our upcoming music program on Friday, June 7th. Remember to say your words loudly and clearly.</p>
                   </div>
               </a>
               <a href="https://betsl.github.io/read/" target="_blank">
                   <div class="day-grid-item day-two">
                       <h2>[ T ]</h2>
-                      <p>Read - Use a strategy ...</p>
+                      <p class="highlight">Read - Use a strategy ...</p>
                   </div>
               </a>
               <a href="http://blogs.henrico.k12.va.us/eeharkins/files/2019/02/Sight-Word-Assessment.pdf" target="_blank">
                   <div class="day-grid-item day-three">
                       <h2>[ W ]</h2>
-                      <p>Sight Words - Practice to reach your goal!</p>
+                      <p class="highlight">Sight Words - Practice to reach your goal!</p>
                   </div>
               </a>
-              <a href="http://blogs.henrico.k12.va.us/eeharkins/files/2019/02/Sight-Word-Assessment.pdf" target="_blank">
+              <!-- <a href="http://blogs.henrico.k12.va.us/eeharkins/files/2019/02/Sight-Word-Assessment.pdf" target="_blank"> -->
                 <div class="day-grid-item day-four">
                     <h2>[ Th ]</h2>
-                    <p>What do you know about addition and subtraction? Can you explain your ideas to someone in your family?</p>
+                    <p>Tell your family an addition story. Next, tell your family a subtraction story. How are they the same? Different?</p>
                 </div>
               </a>
               <div class="day-grid-item last-item">
@@ -129,7 +130,7 @@
     // cursor position - problem solved to account for nested elements
     const header = document.querySelector('.header');
     const text = header.querySelector('h1');
-    const walk = 500; // 100 px - for inner math equation below
+    const walk = 200; // 100 px - for inner math equation below
 
     function shadow(e) {
       //const width = hero.offsetWidth;
@@ -149,8 +150,8 @@
 
       text.style.textShadow = `
         ${xWalk}px ${yWalk}px 0 rgba(229,229,229,1),
-        ${xWalk * -1}px ${yWalk}px 0 rgba(235,235,235,1),
-        ${yWalk}px ${xWalk * -1}px 0 rgba(240,240,240,1),
+        ${xWalk * -1}px ${yWalk}px 0 rgba(250,250,250,1),
+        ${yWalk}px ${xWalk * -1}px 0 rgba(250,250,250,1),
         ${yWalk * -1}px ${xWalk}px 0 rgba(250,250,250,1)
       `;
 
