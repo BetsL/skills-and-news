@@ -1,6 +1,8 @@
 # skills-and-news
 Digitized weekly newsletter: A groovy, retro-modern, fanciful, yet functional, resource for communication + idea sharing. I like adjectives :)  
 
+I work with families who are just as busy as I am. We needed a solution to replace the usual (paper) newsletter that could travel to soccer practice, ballet practice, and Grandma's. I wanted families to feel that they could connect with the happenings of their child's classroom and remain informed despite the possible circumstances of their private lives. Also, paper information of any kind in a kindergartner's take-home folder and backpack has a remarkably short shelf life ;) 
+
 ![feb-news](https://user-images.githubusercontent.com/44883733/56003105-2ad41200-5c93-11e9-8bfd-d500703589c4.png)
 
 ![skills-full](https://user-images.githubusercontent.com/44883733/54649306-0748ed80-4a80-11e9-9620-74eefc05aedd.png)
